@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(0, 53, 126);
+}
+.title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Rubik', sans-serif;
+    font-weight: bolder;
+}
+.title p
+{
+    font-size: 3rem;
+    margin: 10px auto;
+    padding: 5px;
+    color: white;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    width: fit-content;
+}
+.header
+{
+    display: flex;
+    margin: 10px auto;
+}
+.searchbar
+{
+    display: flex;
+}
+.searchbar input
+{
+    padding: 5px;
+    font-size: medium;
+    color: black;
+    border-radius: 20px;
+    border-width: 0px;
+    width: 220px;
+}
+.searchbar input:focus-visible
+{
+    border-width: 0px;
+    background-color: rgb(226, 226, 226);
+}
+#searchbutton
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 30%;
+    
+    border-width: 0px;
+    background-color: white;
+    padding: 5px;
+    margin: 0px 5px;
+}
+#searchbutton:hover
+{
+    background-color: rgb(188, 188, 188);
+    cursor: pointer;
+}
+.imagebox
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(1, 98, 1); */
+    border-radius: 10px;
+    background-color: rgb(1, 77, 164);
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+.weathercomponents
+{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    background-color: rgb(255, 204, 0);
+    margin: 15px auto;
+    padding: 25px;
+}
+.labels
+{
+    display: flex;
+    margin: 5px 5px;
+}
+.labels p
+{
+    display: flex;
+    justify-content: right;
+    width: 200px;
+    font-family:'Rubik', sans-serif;
+    font-weight: bolder;
+    justify-items: right;
+    font-size: 1.3rem;
+    /* margin: 0px 20px; */
+
+}
+.labels label
+{
+    font-family: 'Noto Sans HK', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
